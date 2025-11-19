@@ -1,129 +1,101 @@
-# 🛠️ i3 MK0 — Restauratie TODO-Lijst
-Dit project heeft als doel om een oude **i3 MK0 (2.85mm)** 3D-printer te **restaureren naar originele werkende staat**, zonder grote upgrades.  
-Alleen herstellen wat kapot, versleten of fout aangesloten is.
+# 🛠️ i3 MK0 — Restauratie Takenlijst (Issue-Ready)
+
+Dit project heeft als doel de originele i3 MK0 (2.85mm) 3D-printer te restaureren.  
+Alle taken hieronder zijn geformuleerd als **korte, duidelijke issues** die GitHub automatisch kan omzetten.
 
 ---
 
-## 1️⃣ Project Setup (GitHub & Documentatie)
-- [ ] Nieuwe GitHub-repository aanmaken  
-- [ ] README.md toevoegen met projectbeschrijving  
-- [ ] Mapstructuur aanmaken:
-  - [ ] `/firmware-backup`
-  - [ ] `/hardware-photos`
-  - [ ] `/wiring-photos`
-  - [ ] `/docs`
-- [ ] Nieuw logboek starten → `/docs/logboek.md`
+## 1️⃣ Project Setup
+- [ ] [SETUP] GitHub-repository aanmaken
+- [ ] [SETUP] README.md toevoegen
+- [ ] [SETUP] Mapstructuur aanmaken (`/firmware-backup`, `/hardware-photos`, `/wiring-photos`, `/docs`)
+- [ ] [SETUP] Logboek aanmaken (`/docs/logboek.md`)
 
 ---
 
-## 2️⃣ Documentatie van de Huidige Staat
-- [ ] Foto's maken van de volledige printer  
-- [ ] Detailfoto's maken van:
-  - [ ] moederbord  
-  - [ ] display  
-  - [ ] hotend  
-  - [ ] extruder  
-  - [ ] riemen  
-  - [ ] bedrading  
-- [ ] In logboek noteren:
-  - Wat werkt wel  
-  - Wat werkt niet  
-  - Wat ontbreekt  
-  - Wat beschadigd is  
+## 2️⃣ Documentatie van Huidige Staat
+- [ ] [DOC] Foto’s maken van volledige printer
+- [ ] [DOC] Foto’s maken van moederbord
+- [ ] [DOC] Foto’s maken van display
+- [ ] [DOC] Foto’s maken van hotend
+- [ ] [DOC] Foto’s maken van extruder
+- [ ] [DOC] Foto’s maken van riemen en assen
+- [ ] [DOC] Foto’s maken van alle bedrading
+- [ ] [DOC] Inventaris maken van wat werkt en wat niet werkt
 
 ---
 
 ## 3️⃣ Elektronische Backup & Inspectie
-- [ ] Firmware uitlezen indien mogelijk (hex-file opslaan in `/firmware-backup`)  
-- [ ] Controle van PCB op:
-  - [ ] verbrande connectors  
-  - [ ] koude soldeerpunten  
-  - [ ] losse kabels  
-- [ ] Alle kabels labelen  
-- [ ] Wiring-foto’s maken en opslaan in `/wiring-photos`
+- [ ] [ELEC] Oude firmware uitlezen en opslaan in `/firmware-backup`
+- [ ] [ELEC] PCB inspecteren op verbrande connectors
+- [ ] [ELEC] PCB inspecteren op koude soldeerpunten
+- [ ] [ELEC] Alle kabels labelen
+- [ ] [ELEC] Wiring-schema fotograferen en opslaan
 
 ---
 
 ## 4️⃣ Mechanische Restauratie
-(Geen upgrades — alleen herstellen/schoonmaken)
-
-- [ ] Alle bewegende delen schoonmaken  
-- [ ] Lineaire lagers controleren (LM8UU)  
-- [ ] Assen schoonmaken en licht smeren  
-- [ ] Riemen inspecteren op scheurtjes  
-- [ ] Riemspanning corrigeren  
-- [ ] Z-stangen reinigen en smeren  
-- [ ] Controle of hotend stevig gemonteerd zit  
-- [ ] Printbed oppervlakte controleren  
-- [ ] Alle schroeven nalopen en vastzetten  
+- [ ] [MECH] Bewegingselementen schoonmaken
+- [ ] [MECH] Lineaire lagers (LM8UU) inspecteren
+- [ ] [MECH] Assen reinigen en licht smeren
+- [ ] [MECH] Riemen controleren op schade
+- [ ] [MECH] Riemspanning afstellen
+- [ ] [MECH] Z-stangen schoonmaken en smeren
+- [ ] [MECH] Hotendmontage controleren
+- [ ] [MECH] Printbed oppervlakte controleren
+- [ ] [MECH] Alle schroeven nalopen en aandraaien
 
 ---
 
 ## 5️⃣ Elektrische Restauratie
-- [ ] PSU spanning testen  
-- [ ] Connectors controleren (geen verkleuring/smeltschade)  
-- [ ] Endstops testen (X/Y/Z)  
-- [ ] Thermistors testen (hotend + bed)  
-- [ ] Heater-cartridge testen  
-- [ ] Displaykabels verifiëren  
-- [ ] Steppers testen (manueel draaien → geen hapering)
+- [ ] [ELEC] PSU spanning controleren
+- [ ] [ELEC] Stekkerconnectors en bedrading controleren
+- [ ] [ELEC] Endstops testen (X/Y/Z)
+- [ ] [ELEC] Thermistor hotend testen
+- [ ] [ELEC] Thermistor bed testen
+- [ ] [ELEC] Heater-cartridge testen
+- [ ] [ELEC] Displaykabels controleren
+- [ ] [ELEC] Steppers handmatig testen op soepele beweging
 
 ---
 
-## 6️⃣ Firmware (Originele Staat Behouden)
-- [ ] Marlin-versie controleren (1.0.0 RC2 zichtbaar op display)  
-- [ ] Endstop-configuratie testen  
-- [ ] Motorrichting controleren  
-- [ ] Temperatuurmetingen controleren  
-- [ ] *Geen firmware-upgrade uitvoeren tenzij strikt noodzakelijk*
+## 6️⃣ Firmware (Restauratie, geen upgrade)
+- [ ] [FW] Marlin-versie controleren op werking
+- [ ] [FW] Endstop-instellingen testen
+- [ ] [FW] Motorrichting controleren
+- [ ] [FW] Temperatuursensoren controleren
 
 ---
 
 ## 7️⃣ Functionele Tests
-- [ ] Test beweging X-as  
-- [ ] Test beweging Y-as  
-- [ ] Test beweging Z-as  
-- [ ] Homing test uitvoeren  
-- [ ] Hotend warmt op?  
-- [ ] Heatbed warmt op?  
-- [ ] Extruder:
-  - [ ] pakt filament  
-  - [ ] slipt niet  
+- [ ] [FUNC] X-as test
+- [ ] [FUNC] Y-as test
+- [ ] [FUNC] Z-as test
+- [ ] [FUNC] Homing test
+- [ ] [FUNC] Hotend verwarmt correct
+- [ ] [FUNC] Heatbed verwarmt correct
+- [ ] [FUNC] Extruder test met filament
 
 ---
 
 ## 8️⃣ Kalibratie
-- [ ] Manueel bed levelen  
-- [ ] Extruder E-steps calibreren  
-- [ ] Steps per mm controleren (X/Y/Z)  
-- [ ] PID autotune uitvoeren voor hotend  
-- [ ] PID autotune uitvoeren voor bed  
+- [ ] [CAL] Bed levelen (manueel)
+- [ ] [CAL] E-steps calibreren
+- [ ] [CAL] Steps/mm voor X/Y/Z controleren
+- [ ] [CAL] PID autotune hotend uitvoeren
+- [ ] [CAL] PID autotune bed uitvoeren
 
 ---
 
 ## 9️⃣ Testprint
-- [ ] 20mm calibration cube printen  
-- [ ] Resultaten beoordelen:
-  - laagconsistentie  
-  - onder-/overextrusie  
-  - ghosting  
-  - temperatuurproblemen  
-- [ ] Kleine correcties doorvoeren  
+- [ ] [TEST] 20mm testcube printen
+- [ ] [TEST] Printkwaliteit beoordelen (laagdikte, flow, temperatuur, ghosting)
+- [ ] [TEST] Correcties doorvoeren indien nodig
 
 ---
 
-## 🔟 Documentatie Afronden
-- [ ] Voor/na foto's uploaden naar repo  
-- [ ] Logbook invullen met uitgevoerde reparaties  
-- [ ] README uitbreiden met:
-  - Overzicht problemen & oplossingen  
-  - Tips voor toekomstig onderhoud  
-- [ ] Backups veilig opslaan  
-
----
-
-## ✔️ Projectstatus
-- Restauratie zonder modernisering  
-- Focust op reparatie, reiniging en afstelling  
-- Originele hardware zo veel mogelijk behouden
-
+## 🔟 Afronding
+- [ ] [DOC] Voor/na foto's uploaden
+- [ ] [DOC] Logboek invullen met uitgevoerde restauraties
+- [ ] [DOC] README uitbreiden met problemen + oplossingen
+- [ ] [DOC] Backups opslaan en finaliseren
