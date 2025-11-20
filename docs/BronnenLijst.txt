@@ -1,0 +1,8 @@
+Hardware
+https://reprap.org/wiki/RAMPS_1.4 19/11/2025
+    https://reprap.org/wiki/File:RAMPS1-3_fin.JPG 19/11/2025
+    https://store-usa.arduino.cc/products/arduino-mega-2560-rev3?srsltid=AfmBOor5meNKDeUja30hlUUn9bs0wj1US_ODxn472sllWjuCFfwR87yM 19/11/2025
+
+Firmware
+    https://marlinfw.org/ 19/11/2025
+    
