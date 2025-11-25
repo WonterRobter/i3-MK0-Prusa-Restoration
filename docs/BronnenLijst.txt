@@ -1,8 +1,21 @@
 Hardware
 https://reprap.org/wiki/RAMPS_1.4 19/11/2025
     https://reprap.org/wiki/File:RAMPS1-3_fin.JPG 19/11/2025
+    https://reprap.org/wiki/Prusa_i3 25/11/2025
     https://store-usa.arduino.cc/products/arduino-mega-2560-rev3?srsltid=AfmBOor5meNKDeUja30hlUUn9bs0wj1US_ODxn472sllWjuCFfwR87yM 19/11/2025
-
+    
 Firmware
     https://marlinfw.org/ 19/11/2025
+    https://marlinfw.org/meta/download/ 20/11/2025
+
+    https://github.com/MarlinFirmware/Configurations/tree/release-2.1.2.5 20/11/2025
+    https://github.com/MarlinFirmware/Configurations/blob/release-2.1.2.5/config/examples/AnyCubic/i3/Configuration.h 20/11/2025
     
+    https://marlinfw.org/docs/basics/install.html 25/11/2025
+    https://www.3djake.nl/info/printgids/marlin-firmware-instellen-en-aan-de-slag-gaan 25/11/2025
+    https://reprap.org/forum/read.php?381,255287 25/11/2025
+    https://www.youtube.com/watch?v=EYdkVb1Pl08 25/11/2025
+
+
+https://marlinfw.org/docs/configuration/configuration.html 25/11/2025 (config gids)
+https://www.printables.com/model/42477-parametric-ramps-14-enclosure-with-offset-mounting
